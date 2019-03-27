@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="三个布局的实现"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:gravity="center" />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="线性布局" />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_two"
+                android:text="相对布局" />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_three"
+                android:text="表格布局" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
